@@ -4,7 +4,6 @@ FROM maven:3.8.4-openjdk-17
 WORKDIR /app
 
 # Clone the repository
-RUN git clone https://github.com/.
 
 # Build the Spring Boot application
 RUN mvn package
